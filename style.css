@@ -8,7 +8,7 @@ body {
 
 .top-img {
   margin-top: 200px;
-  width: 8%;
+  width: 200px;
 }
 
 /*      TOP     */
@@ -37,7 +37,7 @@ body {
 
 .top input {
   border-radius: 50px;
-  width: 30%;
+  width: 800px;
   outline: none;
   border: 0.5px solid gray;
   height: 100px;
@@ -49,7 +49,7 @@ body {
   background-color: hsl(223, 87%, 63%);
   height: 100px;
   outline: none;
-  width: 10%;
+  width: 300px;
   border-radius: 50px;
   border: none;
   box-shadow: 1px 1px 10px gray;
@@ -64,7 +64,7 @@ body {
 }
 
 .mid img {
-  width: 50%;
+  width: 1200px;
 }
 
 /*      BOTTOM      */
@@ -94,4 +94,36 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/*      MEDIA BREAKPOINTS       */
+
+@media (max-width: 2100px) {
+  .top-img {
+    width: 150px;
+  }
+
+  .mid img {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .top {
+    font-size: 40px;
+  }
+
+  .top input {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .top button {
+    width: 850px;
+    margin: 20px 0 0;
+  }
+
+  .mid img {
+    width: 800px;
+  }
 }
