@@ -104,30 +104,40 @@ body {
 
 @media (max-width: 800px) {
   .top-img {
-    width: 150px;
+    width: 80px;
+  }
+  .mid img {
+    width: 450px;
   }
 
-  .mid img {
-    width: 1000px;
+  .top {
+    font-size: 20px;
+  }
+
+  .top input,
+  button {
+    height: 40px;
+  }
+
+  .top input {
+    width: 300px;
+  }
+
+  .top button {
+    width: 100px;
   }
 }
 
-@media (max-width: 500px) {
-  .top {
-    font-size: 40px;
-  }
-
+@media (max-width: 600px) {
   .top input {
     display: block;
     margin: 0 auto;
   }
-
   .top button {
-    width: 850px;
-    margin: 20px 0 0;
+    margin: 20px auto 0;
+    width: 325px;
   }
-
   .mid img {
-    width: 800px;
+    width: 400px;
   }
 }
