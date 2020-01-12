@@ -15,7 +15,7 @@ The designs were created to the following widths:
 
 ### Secondary
 
-- Pale Blue: hsl(223, 100%, 88%)
+- Pale Blue:
 - Light Red: hsl(354, 100%, 66%)
 
 ### Neutral
