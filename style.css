@@ -15,7 +15,6 @@ body {
 /*      TOP     */
 
 .top {
-  /* text-align: center; */
   margin-top: 50px;
   font-size: 25px;
   font-family: "Libre Franklin", sans-serif;
@@ -43,21 +42,31 @@ body {
   outline: none;
   border: 0.5px solid gray;
   height: 50px;
-  font-size: 12px;
+  font-size: 14px;
   padding-left: 25px;
 }
 
+.top input::placeholder {
+  color: gray;
+}
+
 .top button {
+  cursor: pointer;
   background-color: hsl(223, 87%, 63%);
   height: 50px;
   outline: none;
   width: 150px;
   border-radius: 25px;
   border: none;
-  box-shadow: 1px 1px 10px gray;
   margin-left: 25px;
   color: white;
   font-size: 12px;
+  transition: all 300ms ease-in-out;
+}
+
+.top button:hover {
+  background-color: hsl(223, 84%, 48%);
+  box-shadow: 1px 1px 10px gray;
 }
 
 /*      MIDDLE      */
@@ -82,22 +91,15 @@ body {
   color: hsl(223, 87%, 63%);
 }
 
+.bottom a:hover {
+  color: hsl(223, 90%, 41%);
+}
+
 .bottom p {
   margin-top: 35px;
   font-size: 12px;
   font-weight: lighter;
   color: gray;
-}
-
-/*      FOOTER      */
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 /*      MEDIA BREAKPOINTS       */
